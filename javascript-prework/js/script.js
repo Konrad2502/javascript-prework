@@ -24,6 +24,7 @@ if(randomNumber == 1) {
     computerMove = 'kamien';
 } else if(randomNumber == 2) {
     computerMove = 'nozyczki';
-} else {
+} else if(randomNumber == 3) {
     computerMove ='papier';
 }
+printMessage('Moj ruch: ' + computerMove);
